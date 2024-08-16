@@ -1,0 +1,286 @@
+.iMg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.iMg img {
+  width: 80px;  /* Adjust the width as needed */
+  height: 80px; /* Maintain the same aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+
+/* src/components/ProfilePage.css */
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .profile-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .profile-details {
+    margin-top: 30px;
+  }
+  
+  .profile-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* src/components/MakeProfile.css */
+
+.make-profile-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .make-profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .avatar-preview {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* src/components/routes.css */
+.change-password-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 50px auto;
+}
+
+.change-password-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* src/components/dashboard.css */
+.dashboard-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.doctor-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.doctor-card:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.selected-doctor {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.selected-doctor h2 {
+  margin-bottom: 10px;
+}
+
+/* src/components/routes.css */
+.auth-homepage-container {
+  display: flex;
+}
+
+.auth-homepage-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.auth-homepage-content h2{
+  text-align: center;
+  text-decoration: solid;
+  
+}
+
+.iMg {
+  margin-bottom: 20px;
+}
+
+.logout button {
+  margin-top: 20px;
+  width: 150px;
+  margin-left: 19px;
+}
+
+/* Add any additional styling needed */
+
+/* src/routes/routes.css */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.doctor-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.doctor-card:hover {
+  background-color: #f0f0f0;
+}
+
+.make-appointment-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.make-appointment-link:hover {
+  background-color: #0056b3;
+}
+
+.selected-doctor {
+  margin-top: 20px;
+}
+
+.selected-doctor .doctor-details {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+

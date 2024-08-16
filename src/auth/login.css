@@ -1,0 +1,95 @@
+
+
+.container {
+   
+    width: 100%;
+    max-width: 400px;
+   
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .underline {
+    width: 50px;
+    height: 3px;
+    background: #ff7a59;
+    margin: 10px auto 0;
+  }
+  
+  .inputs .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+  }
+  
+  .inputs .input img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .inputs .input input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  .forgot-password span {
+    color: #ff7a59;
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit, .toggle-action {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit {
+    background: #ff7a59;
+    color: white;
+  }
+  
+  .toggle-action {
+    background: #ddd;
+    color: #333;
+  }
+  
+  .submit:hover, .toggle-action:hover {
+    opacity: 0.9;
+  }
+  
